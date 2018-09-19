@@ -1,0 +1,25 @@
+{
+  "name": "renovate-config-nju33",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "nju33/renovate-nju33",
+  "author": "nju33 <nju33.ki@gmail.com>",
+  "keywords": [
+    "nju33"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        "schedule:weekends",
+        ":assignee(nju33)",
+        ":timezone(Asia/Tokyo)",
+        ":automergeMinor"
+      ]
+    }
+  }
+}
