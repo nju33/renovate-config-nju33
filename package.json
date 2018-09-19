@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-nju33",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": "nju33/renovate-nju33",
   "author": "nju33 <nju33.ki@gmail.com>",
